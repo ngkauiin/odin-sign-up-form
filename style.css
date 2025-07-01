@@ -16,6 +16,24 @@
 
 }
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-family: "rubikregular",serif;
+}
+
+.left-container {
+  background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+body {
+  display: flex;
+  height: 100vh;
 }
