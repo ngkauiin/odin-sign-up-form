@@ -51,6 +51,8 @@ section.info {
 }
 fieldset{
   display: flex;
+  gap: 3rem;
+  border-style: none;
 }
 
 .form-group {
