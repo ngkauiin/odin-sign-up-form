@@ -27,10 +27,34 @@ html {
 
 .left-container {
   background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
+  background-size: cover;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+img {
+  width: 80px;
+}
+
+.odin-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.384);
+  padding: 10px 80px;
+  margin-top: 200px;
+}
+
+.odin-title {
+  font-size: 3rem;
+  font-family: 'alex_brushregular';
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
 }
 
 body {
