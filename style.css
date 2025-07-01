@@ -101,6 +101,10 @@ fieldset{
   margin-bottom: 25px;
 }
 
+label {
+  text-transform: uppercase;
+}
+
 input {
   border: 1px solid #ccc;
   border-radius: 4px;
