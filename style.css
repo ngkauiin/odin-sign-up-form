@@ -71,10 +71,12 @@ body {
   background-color: rgb(245, 245, 245);
 }
 
-section.info {
-  display: flex;
-  flex-direction: column;
+.intro-container,
+.info-section,
+.submit-section {
+  padding: 30px 40px;
 }
+
 fieldset{
   display: flex;
   gap: 3rem;
