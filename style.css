@@ -112,3 +112,18 @@ input:focus {
   border-color: blue;
   box-shadow: 2px 2px 2px rgb(207, 207, 207);
 }
+
+button[type='submit'] {
+  background-color: #596D48;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 0 0 10px rgb(207, 207, 207);
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #596D48;
+}
