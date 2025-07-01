@@ -1,13 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Odin - Sign Up Form</title>
 </head>
+
 <body>
-  <h1>title</h1>
-  <h2>testing</h2>
+  <div class="left-container">
+    <h1>ODIN</h1>
+    <footer>Photo by Halie West on Unsplash</footer>
+  </div>
+  <div class="right-container">
+    <div class="intro-container">
+      <p>This is not a real online service! Sign up <em>now</em> to get started</p>
+    </div>
+    <form action="#" method="post">
+      <section>
+        <h1>Let's do this!</h1>
+        <p>
+          <label for="first-name">First Name</label>
+          <input type="text" name="first-name" id="first-name">
+          <label for="last-name">Last Name</label>
+          <input type="text" name="last-name" id="last-name">
+        </p>
+        <p>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+          <label for="phone">Phone number</label>
+          <input type="tel" id="phone" name="phone-number">
+        </p>
+        <p>
+          <label for="pwd">Password</label>
+          <input type="password" name="password" id="pwd" required>
+          <label for="confirm-pwd">Confirm password</label>
+          <input type="password" name="password" id="confirm-pwd" required>
+        </p>
+      </section>
+      <section>
+        <p>
+          <button type="submit">Create Account</button>
+        </p>
+        <p>Already have an account? <a href="">Log in</a></p>
+      </section>
+    </form>
+
+
+
+
+  </div>
+
 </body>
+
 </html>
